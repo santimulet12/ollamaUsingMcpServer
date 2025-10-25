@@ -73,7 +73,7 @@ Implementa una API REST con Flask que actúa como intermediario entre usuarios y
 ### Configuración
 
 #### Constantes
-- `OLLAMA_API_URL`: URL del servidor Ollama (192.168.1.43:11434)
+- `OLLAMA_API_URL`: URL del servidor Ollama (10.0.0.0:11434)
 - `MODELO`: Modelo de lenguaje a utilizar (qwen2.5:3b)
 - `SYS_PROMPT`: Prompt del sistema que define el comportamiento del asistente
 
@@ -281,7 +281,7 @@ ARGS: {"argumento": "valor"}
 - `asyncio`: Para operaciones asíncronas
 
 ### Servicios externos
-- **Ollama**: Servidor de modelos de lenguaje (192.168.1.43:11434)
+- **Ollama**: Servidor de modelos de lenguaje (10.0.0.0:11434)
 - **wttr.in**: API gratuita de información meteorológica
 
 ---
