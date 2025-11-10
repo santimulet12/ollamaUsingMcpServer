@@ -1,0 +1,18 @@
+[project]
+name = "ollamausingmcpserver"
+version = "0.1.0"
+description = "Sistema de Chat con Herramientas MCP"
+requires-python = ">=3.12"
+dependencies = [
+    "fastmcp>=2.13.0.2",
+    "flask>=3.1.2",
+    "requests>=2.32.5",
+    "uvicorn>=0.38.0",
+]
+
+[dependency-groups]
+dev = [
+    "black>=25.11.0",
+    "pytest>=9.0.0",
+    "ruff>=0.14.4",
+]
